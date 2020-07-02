@@ -1,0 +1,238 @@
+body{
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat";
+}
+
+p{
+  text-align: justify;
+}
+
+/* Headings */
+
+.big-heading{
+  padding-top: 40%;
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 1.5;
+  color: #ddf3f5;
+}
+
+.medium-heading{
+  padding-top: 10%;
+  color: #ddf3f5;
+  font-family: "Noto Serif";
+  text-align: center;
+}
+
+.title-heading{
+  padding-top: 5%;
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 1.5;
+  color: #2f2519;
+}
+
+/* Navigation bar */
+
+.navbar-brand {
+  font-family: "Noto Serif";
+  font-size:1.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 10px;
+}
+
+.nav-link{
+  font-size: 1.1rem;
+  font-family: "Montserrat";
+  font-weight: 100;
+}
+
+/* Title Section */
+
+.border-heading{
+  border-style: solid;
+  border-width: 10px;
+  color: #89c9b8;
+}
+
+.profile-photo{
+  padding: 10%;
+  height: 30rem;;
+}
+
+#bio{
+  padding: 0 0 5% 0;
+}
+
+#education{
+  background-color: #b9ac92;
+}
+
+#experience{
+  padding: 0 0 5% 5%;
+}
+
+#title {
+  padding: 0 15%;
+  text-align: center;
+  background: url("background-image/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45rem;
+}
+
+/* Containers */
+
+.container {
+  padding: 2px 16px;
+}
+
+.container-fluid{
+  padding: 10% 15%;
+}
+
+.experience-card{
+  padding: 0 0 10% 0;
+}
+
+.skills-container{
+  background-color: #b9ac92;
+}
+
+/* Cols and Rows */
+
+.bio-row{
+  padding-left: 2%;
+}
+
+.col-paragraph{
+  font-size: 1.2rem;
+  padding: 5% 10% 0 0;
+  color: #2f2519;
+}
+
+.education-column{
+  padding: 7%;
+}
+
+/* flip cards */
+
+.experience-flip-card{
+  margin: 3% 0 0 10%;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 400px;
+  height: 550px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  padding-right: 4%;
+  background-color: #89c9b8;
+  color: #2f2519;
+  transform: rotateY(180deg);
+}
+
+/* Education cards */
+
+.education-card {
+  background-color: #bbb;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 34rem;
+}
+
+.education-card:hover {
+  box-shadow: 0 36px 56px 0 rgba(0,0,0,0.2);
+}
+
+.title-education{
+  background-color: #ffff;
+}
+
+/* Skills */
+
+.languages{
+  padding: 4%;
+}
+
+.languages-chip {
+  display: inline-block;
+  padding: 0 25px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+  border-radius: 25px;
+  background-color: #f1f1f1;
+}
+
+.languages-chip img {
+  float: left;
+  margin: 0 10px 0 -25px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.logo-images{
+  padding: 1%;
+  height: 100px;
+}
+
+.skill-text{
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Footer section */
+
+.footer-icons{
+  padding: 1%;
+}
+
+.footer-icons:hover{
+  color: #89c9b8;
+}
+
+.footer-link{
+  color: #2f2519;
+}
